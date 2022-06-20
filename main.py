@@ -24,9 +24,10 @@ with open(f'saves/{ip} {start_port} - {end_port}.txt', 'w') as f:
 
 print()
 
-HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0'}
-
 def portscan(ip):
+    HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0'}
+
+
     data = {
 	"remoteHost": ip,
 	"start_port": start_port,

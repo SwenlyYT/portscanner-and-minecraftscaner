@@ -1,0 +1,2 @@
+mc.reallyworld.ru:22
+mc.reallyworld.ru:80
